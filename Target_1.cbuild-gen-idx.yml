@@ -1,0 +1,13 @@
+build-gen-idx:
+  generated-by: uVision version 5.43.1.0
+  generators:
+    - board: 
+      device: STM32F407VGTx
+      id: CubeMX
+      output: C:/stm32/STM32F407/STM32CubeMX/Target_1/
+      project-type: single-core
+      cbuild-gens:
+        - cbuild-gen: C:/stm32/STM32F407/FreeRTOS.Target_1.cbuild-gen.yml
+          configuration: .Target_1
+          name: C:/stm32/STM32F407/STM32CubeMX/Target_1/FreeRTOS.cgen.yml
+          project: FreeRTOS
